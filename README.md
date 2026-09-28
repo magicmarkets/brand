@@ -6,7 +6,7 @@ Official MagicMarkets logo files for partners, press and anyone who shows MagicM
 
 ## Download
 
-- **All files:** [MagicMarkets_Logos.zip](https://github.com/magic-markets/brand/releases/latest/download/MagicMarkets_Logos.zip)
+- **All files:** [MagicMarkets_Logos.zip](https://github.com/magicmarkets/brand/releases/latest/download/MagicMarkets_Logos.zip)
 - **One file:** open the [`logos`](logos) folder and download the file you need.
 
 ## Which logo to use
