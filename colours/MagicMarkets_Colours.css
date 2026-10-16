@@ -1,0 +1,28 @@
+:root {
+  /* Primary */
+  --mm-carrot-orange: #FF5408;
+  --mm-snow-bunny: #F2EBE8;
+  --mm-easter-brown: #0A0805;
+  /* Secondary tints */
+  --mm-tint-1: #2E2421;
+  --mm-tint-2: #664D47;
+  --mm-tint-3: #877A78;
+  --mm-tint-4: #C2BAB8;
+  --mm-tint-5: #DED6D4;
+  --mm-tint-6: #EDE8E5;
+  --mm-tint-7: #F7F5F2;
+  /* Secondary palette (charts and accents) */
+  --mm-teal: #429595;
+  --mm-gold: #B2A662;
+  --mm-blue: #5584B4;
+  --mm-rose: #AF6F8E;
+  --mm-violet: #826EA8;
+  --mm-warm-grey: #928373;
+  /* Semantic (market direction only) */
+  --mm-green-text-light: #237545;
+  --mm-green-solid-light: #55A370;
+  --mm-green-text-dark: #81CB98;
+  --mm-red-text-light: #AE2D32;
+  --mm-red-solid-light: #E35F5D;
+  --mm-red-text-dark: #FF8B86;
+}
