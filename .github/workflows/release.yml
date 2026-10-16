@@ -1,0 +1,37 @@
+# Builds the brand kit zip from the tagged commit and attaches it to a GitHub release.
+# To publish: git tag v2026.10.16 && git push origin v2026.10.16
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the zip
+        run: |
+          mkdir -p dist/MagicMarkets_Brand
+          cp -R logos colours docs preview.png README.md TRADEMARKS.md dist/MagicMarkets_Brand/
+          find dist -name .DS_Store -delete
+          cd dist
+          zip -qrX MagicMarkets_Brand.zip MagicMarkets_Brand
+          # Same zip under the old name, so existing links keep working.
+          cp MagicMarkets_Brand.zip MagicMarkets_Logos.zip
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "MagicMarkets brand kit, $TAG" \
+              --notes "Every MagicMarkets logo (SVG, PDF and PNG), the square icons and the colour files in one zip. Read the README for the rules."
+          fi
+          gh release upload "$TAG" dist/MagicMarkets_Brand.zip dist/MagicMarkets_Logos.zip --clobber

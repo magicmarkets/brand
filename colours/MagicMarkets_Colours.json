@@ -1,0 +1,164 @@
+{
+  "Primary": [
+    {
+      "name": "Carrot Orange",
+      "hex": "#FF5408",
+      "rgb": "R255 G84 B8",
+      "cmyk": "C0 M81 Y100 K0",
+      "use": "The signature accent. Always the dominant accent."
+    },
+    {
+      "name": "Snow Bunny",
+      "hex": "#F2EBE8",
+      "rgb": "R242 G235 B232",
+      "cmyk": "C4 M6 Y6 K0",
+      "use": "The light ground."
+    },
+    {
+      "name": "Easter Brown",
+      "hex": "#0A0805",
+      "rgb": "R10 G8 B5",
+      "cmyk": "C72 M67 Y67 K86",
+      "use": "The dark ground."
+    }
+  ],
+  "Secondary tints": [
+    {
+      "name": "Tint 1",
+      "hex": "#2E2421",
+      "rgb": "R46 G36 B33",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 2",
+      "hex": "#664D47",
+      "rgb": "R102 G77 B71",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 3",
+      "hex": "#877A78",
+      "rgb": "R135 G122 B120",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 4",
+      "hex": "#C2BAB8",
+      "rgb": "R194 G186 B184",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 5",
+      "hex": "#DED6D4",
+      "rgb": "R222 G214 B212",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 6",
+      "hex": "#EDE8E5",
+      "rgb": "R237 G232 B229",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Tint 7",
+      "hex": "#F7F5F2",
+      "rgb": "R247 G245 B242",
+      "cmyk": null,
+      "use": null
+    }
+  ],
+  "Secondary palette (charts and accents)": [
+    {
+      "name": "Teal",
+      "hex": "#429595",
+      "rgb": "R66 G149 B149",
+      "cmyk": null,
+      "use": "Chart series: home side."
+    },
+    {
+      "name": "Gold",
+      "hex": "#B2A662",
+      "rgb": "R178 G166 B98",
+      "cmyk": null,
+      "use": "Chart series: draw."
+    },
+    {
+      "name": "Blue",
+      "hex": "#5584B4",
+      "rgb": "R85 G132 B180",
+      "cmyk": null,
+      "use": "Chart series: away side."
+    },
+    {
+      "name": "Rose",
+      "hex": "#AF6F8E",
+      "rgb": "R175 G111 B142",
+      "cmyk": null,
+      "use": "Accent."
+    },
+    {
+      "name": "Violet",
+      "hex": "#826EA8",
+      "rgb": "R130 G110 B168",
+      "cmyk": null,
+      "use": "Accent."
+    },
+    {
+      "name": "Warm Grey",
+      "hex": "#928373",
+      "rgb": "R146 G131 B115",
+      "cmyk": null,
+      "use": "Neutral accent."
+    }
+  ],
+  "Semantic (market direction only)": [
+    {
+      "name": "Green text (light)",
+      "hex": "#237545",
+      "rgb": "R35 G117 B69",
+      "cmyk": null,
+      "use": "Price up, win, Yes."
+    },
+    {
+      "name": "Green solid (light)",
+      "hex": "#55A370",
+      "rgb": "R85 G163 B112",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Green text (dark)",
+      "hex": "#81CB98",
+      "rgb": "R129 G203 B152",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Red text (light)",
+      "hex": "#AE2D32",
+      "rgb": "R174 G45 B50",
+      "cmyk": null,
+      "use": "Price down, loss, No."
+    },
+    {
+      "name": "Red solid (light)",
+      "hex": "#E35F5D",
+      "rgb": "R227 G95 B93",
+      "cmyk": null,
+      "use": null
+    },
+    {
+      "name": "Red text (dark)",
+      "hex": "#FF8B86",
+      "rgb": "R255 G139 B134",
+      "cmyk": null,
+      "use": null
+    }
+  ]
+}
